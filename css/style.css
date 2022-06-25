@@ -21,6 +21,9 @@ main {
     main {
         margin: 6rem 2rem;
     }
+    .cont-sub-1-btn {
+        flex-direction: column;
+    }
 }
 
 @media (min-width:821px) {
@@ -56,10 +59,37 @@ main {
     text-align: center;
     font-weight: 600;
     margin-bottom: 2rem;
+    color: hsl(210, 10%, 33%);
 }
 
 .cont-sub-1-p1 {
     text-align: center;
     line-height: 1.7;
     padding: .1rem;
+    color: hsl(201, 11%, 66%);
+    font-weight: 400;
+}
+
+.cont-sub-1-btn {
+    display: flex;
+    margin-top: 3rem;
+}
+
+a {
+    text-decoration: none;
+    padding: 1rem 5.1rem;
+    border-radius: 30px;
+    color: whitesmoke;
+    font-weight: 600;
+    margin-bottom: 1.8rem;
+}
+
+.first-btn {
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 0px 3px hsl(171, 63%, 35%);
+}
+
+.second-btn {
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 0px 3px hsl(233, 43%, 48%);
 }
