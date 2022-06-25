@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
 * {
     box-sizing: border-box;
     margin: 0;
@@ -6,6 +7,10 @@
 
 
 /* main  */
+
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+}
 
 main {
     display: flex;
@@ -37,6 +42,24 @@ main {
     display: flex;
 }
 
-.cont-sub-1 {
+.prev-logo {
+    width: 100px;
+    margin-bottom: 3.5rem;
+}
+
+
+/* .cont-sub-1 {
     displa
+} */
+
+.cont-sub-1-h {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.cont-sub-1-p1 {
+    text-align: center;
+    line-height: 1.7;
+    padding: .1rem;
 }
