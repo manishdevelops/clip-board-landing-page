@@ -59,14 +59,29 @@ main {
     displa
 } */
 
-.cont-sub-1-h1 {
+.cont-sub-1-h1,
+.cont-sub-2-h3,
+.cont-sub-2-h4,
+.cont-sub-2-h5 {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: hsl(210, 10%, 33%);
+    /* font-size: 1.5rem; */
+}
+
+.sub-2-1 .cont-sub-2-h2 {
     text-align: center;
     font-weight: 600;
     margin-bottom: 2rem;
     color: hsl(210, 10%, 33%);
+    font-size: 1.7rem;
 }
 
-.cont-sub-1-p1 {
+.cont-sub-1-p,
+.cont-sub-1-p,
+.cont-sub-1-p,
+.cont-sub-1-p {
     text-align: center;
     line-height: 1.7;
     padding: .1rem;
@@ -111,13 +126,6 @@ a {
     margin-top: 6rem;
 }
 
-.sub-2-1 .cont-sub-2-h2 {
-    text-align: center;
-    font-weight: 600;
-    margin-bottom: 2rem;
-    color: hsl(210, 10%, 33%);
-}
-
 .cont-sub-2-p {
     text-align: center;
     line-height: 1.7;
@@ -130,5 +138,9 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 4rem;
+    margin: 4rem 0;
+}
+
+.sub-2-2 p {
+    margin-bottom: 3rem;
 }
