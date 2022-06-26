@@ -24,6 +24,10 @@ main {
     .cont-sub-1-btn {
         flex-direction: column;
     }
+    /* sub-2 */
+    .desktop-image {
+        width: 300px;
+    }
 }
 
 @media (min-width:821px) {
@@ -97,6 +101,34 @@ a {
 
 /* sub-2 */
 
-.desktop-image {
-    width: 200px;
+.cont-sub-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sub-2-1 {
+    margin-top: 6rem;
+}
+
+.sub-2-1 .cont-sub-2-h2 {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    color: hsl(210, 10%, 33%);
+}
+
+.cont-sub-2-p {
+    text-align: center;
+    line-height: 1.7;
+    padding: .1rem;
+    color: hsl(201, 11%, 66%);
+    font-weight: 400;
+}
+
+.desk-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
 }
