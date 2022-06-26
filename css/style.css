@@ -5,12 +5,12 @@
     padding: 0;
 }
 
-
-/* main  */
-
 body {
     font-family: 'Bai Jamjuree', sans-serif;
 }
+
+
+/* main  */
 
 main {
     display: flex;
@@ -55,7 +55,7 @@ main {
     displa
 } */
 
-.cont-sub-1-h {
+.cont-sub-1-h1 {
     text-align: center;
     font-weight: 600;
     margin-bottom: 2rem;
@@ -92,4 +92,11 @@ a {
 .second-btn {
     background-color: hsl(233, 100%, 69%);
     box-shadow: 0px 3px hsl(233, 43%, 48%);
+}
+
+
+/* sub-2 */
+
+.desktop-image {
+    width: 200px;
 }
