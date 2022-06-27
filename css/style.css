@@ -62,7 +62,8 @@ main {
 .cont-sub-1-h1,
 .cont-sub-2-h3,
 .cont-sub-2-h4,
-.cont-sub-2-h5 {
+.cont-sub-2-h5,
+.cont-sub-3-h6 {
     text-align: center;
     font-weight: 600;
     margin-bottom: 1rem;
@@ -78,6 +79,7 @@ main {
     font-size: 1.7rem;
 }
 
+.cont-sub-1-p,
 .cont-sub-1-p,
 .cont-sub-1-p,
 .cont-sub-1-p,
@@ -147,4 +149,16 @@ a {
 
 .sub-2-2 {
     margin-bottom: 5rem;
+}
+
+.sub-3-1 {
+    margin-bottom: 4rem;
+}
+
+.devices-img {
+    width: 320px;
+}
+
+.devices-img-block {
+    margin: 1rem 0 4rem 0;
 }
