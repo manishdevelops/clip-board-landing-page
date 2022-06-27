@@ -141,6 +141,10 @@ a {
     margin: 4rem 0;
 }
 
-.sub-2-2 p {
+.sub-2-2-1 p {
     margin-bottom: 3rem;
+}
+
+.sub-2-2 {
+    margin-bottom: 5rem;
 }
