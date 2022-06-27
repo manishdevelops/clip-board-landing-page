@@ -62,8 +62,8 @@ main {
 .cont-sub-1-h1,
 .cont-sub-2-h3,
 .cont-sub-2-h4,
-.cont-sub-2-h5,
-.cont-sub-3-h6 {
+.cont-sub-2-h5
+ {
     text-align: center;
     font-weight: 600;
     margin-bottom: 1rem;
@@ -71,7 +71,7 @@ main {
     /* font-size: 1.5rem; */
 }
 
-.sub-2-1 .cont-sub-2-h2 {
+.sub-2-1 .cont-sub-2-h2,.cont-sub-3-h6 {
     text-align: center;
     font-weight: 600;
     margin-bottom: 2rem;
