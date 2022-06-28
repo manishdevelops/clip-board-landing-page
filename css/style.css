@@ -62,7 +62,11 @@ main {
 .cont-sub-1-h1,
 .cont-sub-2-h3,
 .cont-sub-2-h4,
-.cont-sub-2-h5
+.cont-sub-2-h5,
+.cont-sub-4-h7,
+.cont-sub-4-h8,
+.cont-sub-4-h9,
+.cont-sub-4-h10
  {
     text-align: center;
     font-weight: 600;
@@ -161,4 +165,9 @@ a {
 
 .devices-img-block {
     margin: 1rem 0 4rem 0;
+}
+
+/* sub-4-logo */
+.sub-4-logo{
+    text-align: center;
 }
