@@ -95,7 +95,7 @@ main {
 .cont-sub-1-p {
     text-align: center;
     line-height: 1.7;
-    padding: .1rem;
+    padding: .4rem;
     color: hsl(201, 11%, 66%);
     font-weight: 400;
 }
@@ -212,7 +212,7 @@ a {
     justify-content: center;
     align-items: center;
     padding: 2rem 0 3rem 0;
-    background-color: hsl(201, 11%, 66%);
+    background-color: hsl(200, 29%, 94%);
 }
 
 .sub-7-1,
@@ -224,7 +224,7 @@ a {
 }
 
 .head-logo {
-    width: 45px;
+    width: 55px;
     margin-bottom: 1.5rem;
 }
 
@@ -236,5 +236,5 @@ a {
 }
 
 .twitter-logo {
-    margin: 0px -90px 0 -90px;
+    margin: 0px -170px 0 -170px;
 }
