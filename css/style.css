@@ -27,23 +27,25 @@ body{
     .cont-sub-1-btn {
         flex-direction: column;
     }
-    /* sub-2 */
-    
-    body {
-        
-        
+    p{
+        font-size: 16px;
     }
-    
 }
 
 @media (min-width:821px) {
     main {
-        margin: 4rem 2rem;
+        margin: 6rem 6rem;
     }
     body{
         background-image: url('/assets/images/bg-header-desktop.png');
         background-repeat: no-repeat;
         background-size: contain;
+    }
+    h1{
+            font-size: 2.54rem;
+    }
+    p{
+        font-size: 18px;
     }
 }
 
@@ -103,7 +105,7 @@ body{
 .cont-sub-1-p {
     text-align: center;
     line-height: 1.7;
-    padding: .4rem;
+    padding: .1rem;
     color: hsl(201, 11%, 66%);
     font-weight: 400;
 }
