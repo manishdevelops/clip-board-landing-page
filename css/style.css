@@ -76,6 +76,27 @@ body{
         width:640px;
 
     }
+    .sub-2-2{
+        display: flex;
+        justify-content: space-between;
+    }
+    .sub-2-2-1{
+        margin-top: 8rem;
+        flex-basis: 40%;
+    }
+    .desk-img{
+        /* flex-basis: 40%; */
+        position: relative;
+        margin-left: -200px !important;
+    }
+    .cont-sub-2-p{
+     text-align: start !important;
+     /* width:340px; */
+     padding-right:8rem !important;
+    }
+    .cont-sub-2-h3,.cont-sub-2-h4,.cont-sub-2-h5{
+        text-align: start !important;
+    }
 }
 
 
