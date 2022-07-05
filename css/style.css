@@ -44,9 +44,7 @@ body{
     h1{
             font-size: 2.5rem;
     }
-    p{
-        font-size: 18px;
-    }
+
     .cont-sub-1-p, .cont-sub-1-p, .cont-sub-1-p, .cont-sub-1-p, .cont-sub-1-p {
         text-align: center;
         line-height: 1.7;
@@ -55,12 +53,28 @@ body{
         font-weight: 400;
         width: 660px;
     }
+    .cont-sub-1-p{
+        font-size: 18px;    
+    }
     .cont-sub-1-btn{
       justify-content: space-evenly;
-       width:50%;
+       width:500px;
     }
     a{
         padding: 1rem 3rem !important;
+    }
+    
+    .cont-sub-2 {
+        align-items: center;;
+
+    }
+    .sub-2-1 {
+        margin-top: 6rem;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width:640px;
+
     }
 }
 
