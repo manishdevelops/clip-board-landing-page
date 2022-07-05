@@ -42,10 +42,25 @@ body{
         background-size: contain;
     }
     h1{
-            font-size: 2.54rem;
+            font-size: 2.5rem;
     }
     p{
         font-size: 18px;
+    }
+    .cont-sub-1-p, .cont-sub-1-p, .cont-sub-1-p, .cont-sub-1-p, .cont-sub-1-p {
+        text-align: center;
+        line-height: 1.7;
+        padding: 0.1rem;
+        color: hsl(201, 11%, 66%);
+        font-weight: 400;
+        width: 660px;
+    }
+    .cont-sub-1-btn{
+      justify-content: space-evenly;
+       width:50%;
+    }
+    a{
+        padding: 1rem 3rem !important;
     }
 }
 
