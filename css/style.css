@@ -31,7 +31,12 @@ body{
         font-size: 16px;
     }
 }
-
+@media (min-width:1000px) {
+    .cont-sub-2-p{
+        padding-right:4rem;
+    }
+    
+}
 @media (min-width:821px) {
     main {
         margin: 6rem 6rem;
@@ -83,6 +88,7 @@ body{
     .sub-2-2-1{
         margin-top: 8rem;
         flex-basis: 40%;
+        margin-left:3rem;
     }
     .desk-img{
         /* flex-basis: 40%; */
@@ -91,8 +97,8 @@ body{
     }
     .cont-sub-2-p{
      text-align: start !important;
-     /* width:340px; */
      padding-right:8rem !important;
+
     }
     .cont-sub-2-h3,.cont-sub-2-h4,.cont-sub-2-h5{
         text-align: start !important;
