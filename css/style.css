@@ -100,6 +100,10 @@ body{
      padding-right:8rem !important;
 
     }
+    .sub-2-p22{
+        padding: 0 !important;
+        text-align: center !important;
+    }
     .cont-sub-2-h3,.cont-sub-2-h4,.cont-sub-2-h5{
         text-align: start !important;
     }
@@ -233,6 +237,7 @@ a {
 }
 .desktop-image {
     width:100%;
+    height: 550px;
 }
 .devices-img {
     width: 100%;
