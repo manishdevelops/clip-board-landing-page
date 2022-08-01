@@ -252,11 +252,13 @@ a {
     height: 550px;
 }
 .devices-img {
-    width: 100%;
+    width: 85%;
 }
 
 .devices-img-block {
     margin: 1rem 0 4rem 0;
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -264,6 +266,9 @@ a {
 
 .sub-4-1 {
     margin-bottom: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
 }
 
 .sub-4-2-1,
