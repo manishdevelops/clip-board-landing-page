@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Manish-d-art/clip-board-landing-page.git)
-- Live Site URL: [Add live site URL here](https://clipboard-landing-page-d-art-m.netlify.app)
+- Solution URL: [solution URL here](https://github.com/Manish-d-art/clip-board-landing-page.git)
+- Live Site URL: [live site URL here](https://clipboard-landing-page-d-art-m.netlify.app)
 
 ## My process
 
