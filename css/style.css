@@ -84,6 +84,10 @@ body{
     h1{
             font-size: 2.5rem;
     }
+    .sub-4-2-1, .sub-4-2-2, .sub-4-2-3 {
+       
+        padding: 1rem;
+    }
     .sub-7-1 {
         margin-left: 50px;
     }
@@ -151,7 +155,7 @@ body{
     .desk-img{
         /* flex-basis: 40%; */
         position: relative;
-        margin-left: -200px !important;
+        margin-left: -134px !important;
     }
     
     .sub-2-p22{
@@ -188,6 +192,10 @@ body{
         flex-basis: 20%;
     
     }
+    .devices-img {
+        width: 80% !important;
+    }
+    
     
 }
 @media (min-width:986px) {
@@ -255,7 +263,7 @@ body{
     font-weight: 600;
     margin-bottom: 1.1rem;
     color: hsl(210, 10%, 33%);
-    font-size: 1.7rem;
+    font-size: 2.2rem;
 }
 
 .cont-sub-1-p,
@@ -340,10 +348,10 @@ a {
 }
 .desktop-image {
     width:100%;
-    height: 550px;
+    /* height: 550px; */
 }
 .devices-img {
-    width: 85%;
+    width: 100%;
 }
 
 .devices-img-block {
