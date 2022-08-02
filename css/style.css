@@ -216,7 +216,12 @@ body{
     }
     
 }
-
+@media (min-width:596px) and (max-width:820px) {
+    .first-p{
+        width:540px;
+    }
+    
+}
 
 /* first inner block */
 
@@ -231,7 +236,7 @@ body{
 }
 
 .prev-logo {
-    width: 6.25rem;
+    width: 6.70rem;
     margin-bottom: 3.5rem;
 }
 
@@ -263,7 +268,7 @@ body{
     font-weight: 600;
     margin-bottom: 1.1rem;
     color: hsl(210, 10%, 33%);
-    font-size: 2.2rem;
+    font-size: 2.1rem;
 }
 
 .cont-sub-1-p,
@@ -373,7 +378,7 @@ a {
 .sub-4-2-1,
 .sub-4-2-2,
 .sub-4-2-3 {
-    margin: 3rem 0;
+    margin: 4.5rem 0;
     display: flex;
     flex-direction: column;
     align-items: center;
