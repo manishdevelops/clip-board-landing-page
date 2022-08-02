@@ -39,7 +39,7 @@ body{
 } */
 @media (min-width:1142px) {
     .cont-sub-2-p{
-        text-align: start !important;
+       
         padding-right:8rem !important;
    
        }
@@ -57,6 +57,8 @@ body{
     }
     
 }
+
+
 @media (max-width: 1142px){
 .cont-sub-2-p {
     text-align: start !important;
@@ -73,6 +75,20 @@ body{
     }
     h1{
             font-size: 2.5rem;
+    }
+    .sub-7-1 {
+        margin-left: 50px;
+    }
+    .cont-sub-6 {
+        margin: 7rem 0 4rem 0 !important;
+    }
+    .sub-5-logo1,.sub-5-logo2,.sub-5-logo3,.sub-5-logo4,.sub-5-logo5{
+        width: 100% !important;
+        display: flex;
+        align-self: center;
+    }
+    .cont-sub-2-p{
+        text-align: start !important;
     }
    
 .sub-4-2{
@@ -99,6 +115,10 @@ body{
     }
     a{
         padding: 1rem 3rem !important;
+    }
+    .head-logo {
+        display: flex;
+        align-self: center;
     }
     
     .cont-sub-2 {
@@ -145,6 +165,42 @@ body{
         flex-direction: column;
         align-items: center;
     }
+    .const-sub-7{
+        flex-direction: row !important;
+        justify-content: space-evenly !important;
+        justify-content: baseline !important;
+    }
+    .sub-7-4{
+        display: flex;
+        align-self: start;
+    
+    }
+    .sub-7-5{
+        display: flex;
+        align-self: start;
+        /* justify-content: space-evenly !important; */
+        flex-basis: 20%;
+    
+    }
+    
+}
+@media (min-width:986px) {
+    .twitter-logo {
+       
+        margin: 0 -110px 0 -110px ;
+    }
+}
+@media (min-width:821px) and (max-width:985) {
+    .twitter-logo {
+       
+        margin: 0 -60px 0 -60px;
+    }
+}
+@media (max-width:820px) {
+    .twitter-logo {
+        margin: 0px -170px 0 -170px;
+    }
+    
 }
 
 
@@ -346,7 +402,7 @@ width:6.25rem;
     line-height: 3;
     justify-content: center;
     align-items: center;
-    padding: 3rem 0 3rem 0;
+    padding: 1rem 0;
     background-color: whitesmoke;
 }
 
@@ -356,6 +412,9 @@ width:6.25rem;
 .sub-7-4,
 .sub-7-5 {
     text-align: center;
+}
+.sub-7-1{
+    /* margin-left: 50px; */
 }
 
 .head-logo {
@@ -370,9 +429,7 @@ width:6.25rem;
     /* width: 100%; */
 }
 
-.twitter-logo {
-    margin: 0px -170px 0 -170px;
-}
+
 .const-sub-7 p{
     font-weight: 600;
     color: hsl(201, 11%, 66%);
