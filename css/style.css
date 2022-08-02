@@ -39,7 +39,7 @@ body{
 } */
 @media (min-width:1142px) {
     .cont-sub-2-p{
-       
+       text-align: start !important;
         padding-right:8rem !important;
    
        }
@@ -58,12 +58,20 @@ body{
     
 }
 
+@media (min-width:821px) and (max-width:1142px) {
+    .cont-sub-2-p{
+        text-align: start !important;
+        padding-right: 0rem !important;
+    }
+    
+}
 
-@media (max-width: 1142px){
+/* @media (max-width: 1142px){
 .cont-sub-2-p {
     text-align: start !important;
     padding-right: 0rem !important;
-}}
+}} */
+
 @media (min-width:821px) {
     main {
         margin: 6rem 6rem;
@@ -87,9 +95,7 @@ body{
         display: flex;
         align-self: center;
     }
-    .cont-sub-2-p{
-        text-align: start !important;
-    }
+   
    
 .sub-4-2{
     display: flex;
@@ -304,7 +310,7 @@ a {
 }
 
 .cont-sub-2-p {
-    text-align: center !important;
+    text-align: center ;
     line-height: 1.7;
     padding: .1rem;
     color: hsl(201, 11%, 66%);
