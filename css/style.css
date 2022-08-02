@@ -219,7 +219,7 @@ a {
 }
 
 .cont-sub-2-p {
-    text-align: center;
+    text-align: center !important;
     line-height: 1.7;
     padding: .1rem;
     color: hsl(201, 11%, 66%);
