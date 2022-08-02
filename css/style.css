@@ -135,6 +135,16 @@ body{
     .cont-sub-2-h3,.cont-sub-2-h4,.cont-sub-2-h5{
         text-align: start !important;
     }
+    .cont-sub-5{
+        margin-top:8rem !important;
+        flex-direction: row !important;
+        justify-content: space-around !important;
+    }
+    .cont-sub-6{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 
